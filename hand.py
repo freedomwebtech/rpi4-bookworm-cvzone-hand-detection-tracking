@@ -26,8 +26,8 @@ while True:
           cy=(lmlist[4][1])
           cx1=(lmlist1[4][0])
           cy1=(lmlist1[4][1])
-          cv2.circle(im,(cx,cy),13,(255,0,0),-1)
-          cv2.circle(im,(cx1,cy1),13,(255,255,0),-1)
+#          cv2.circle(im,(cx,cy),13,(255,0,0),-1)
+#          cv2.circle(im,(cx1,cy1),13,(255,255,0),-1)
 
           fingers1 = detector.fingersUp(hand)
           fingers2=detector.fingersUp(hand1)
