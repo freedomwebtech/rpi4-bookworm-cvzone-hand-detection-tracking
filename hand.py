@@ -16,7 +16,6 @@ list=[]
 while True:
       im= picam2.capture_array()
       im=cv2.flip(im,-1)
-#      im=cv2.flip(im,1)
       hands,im=detector.findHands(im,draw=True)
       if len(hands)==2:
           hand=hands[0]
