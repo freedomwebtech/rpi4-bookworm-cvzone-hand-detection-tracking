@@ -1,6 +1,4 @@
-import re
 import cv2
-import numpy as np
 import cvzone
 from cvzone.HandTrackingModule import HandDetector
 from picamera2 import Picamera2
